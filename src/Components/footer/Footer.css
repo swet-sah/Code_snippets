@@ -1,0 +1,80 @@
+* {
+  --footer-bg: #f9f9f9;
+  --font-color: #666;
+  --hover-color:#333;
+}
+
+.insta-color {
+  padding: 1%;
+  color: white;
+  border-radius: 30%;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #fcb045);
+}
+
+
+.footer {
+  width: 100%;
+  background-color: var(--footer-bg);
+  padding: 30px 20px;
+  text-align: center;
+  bottom: 0;
+  vertical-align: bottom;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content p:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: var(--font-color);
+}
+
+.footer-content p svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.footer-content p a {
+  color: var(--font-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-media-icons {
+  margin-top: 20px;
+}
+
+.social-media-icons a {
+  margin: 0 5px;
+}
+
+.donation-button {
+  margin: 20px;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: var(--font-color);
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--hover-color);
+}

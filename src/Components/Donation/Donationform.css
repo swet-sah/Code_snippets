@@ -1,0 +1,136 @@
+/* * {
+  --form-focus: #6ab4e8;
+  --bg-color: #f9f9f9;
+  --active-btn: #5c636a;
+  --text-color: #fff;
+}
+
+.centeredDiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: #f0f0f0;
+  width: 100%;
+} */
+
+/*Tab button*/
+/* .tab-button {
+  padding: 10px 20px;
+  background-color: var(--bg-color);
+  color: var(--active-btn);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 400px 100px;
+  margin-bottom: 10px;
+}
+
+.tab-button.active {
+  background-color: var(--active-btn);
+  color: var(--text-color);
+  border-color: var(--active-btn);
+} */
+
+/*End of tab button*/
+
+/*Money.jsx*/
+/* .money-container {
+  align-items: center;
+}
+
+.container h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  justify-content: center;
+  color: var(--active-btn);
+  margin-bottom: 100px;
+}
+
+.money-container h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  color: var(--active-btn);
+}
+
+.money-container div input {
+  margin-right: 5px;
+  align-items: center;
+  margin-bottom: 40px
+}
+
+.money-container .next-button::before {
+  content: "Donate Now";
+} */
+
+/*End of money.jsx*/
+
+
+/* Container */
+/* .container {
+  background-color: var(--bg-color);
+  outline: none;
+  box-shadow: 1px 1px 10px var(--active-btn);
+  border-radius: 25px;
+  align-items: center;
+  width: 50%;
+  height: 700px;
+}
+
+.name-tag select {
+  width: min-content;
+}
+
+.form-control:focus,
+.form-select:focus {
+  outline: none;
+  box-shadow: 1px 6px 5px var(--form-focus);
+}
+
+.form-buttons .prev-button::after {
+  content: "Prev";
+}
+
+.form-buttons .next-button::before {
+  content: "Next";
+}
+
+@media (max-width:1200px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media (max-width:800px) {
+  .container {
+    width: 100% !important;
+    box-shadow: none;
+    height: auto
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+  }
+
+  .form-buttons .prev-button::after {
+    content: "";
+  }
+
+  .form-buttons .next-button::before {
+    content: "";
+  }
+
+  .form-control,
+  .form-select {
+    width: 100%;
+  }
+
+  .form-buttons {
+    justify-content: space-between !important;
+  }
+
+} */

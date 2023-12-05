@@ -1,0 +1,67 @@
+ * {
+     --nav_background:#f9f9f9;
+     --nav_text-color: rgba(0, 0, 0, 0.661);
+     --nav_hover: black;
+ }
+
+ .mylink {
+     color: var(--nav_text-color);
+     display: block;
+     padding: 0.5rem 1rem;
+     text-decoration: none;
+     transition: color 0.3s ease;
+     position: relative;
+     text-decoration: none;
+ }
+
+ .mylink:hover {
+    color: var(--nav_hover);
+ }
+
+ .mylink::after {
+     content: '';
+     position: absolute;
+     bottom: -3px;
+     left: 0;
+     width: 100%;
+     height: 2px;
+     background-color: var(--nav_hover);
+     transform: scaleX(0);
+     transition: transform 0.2s ease-in-out;
+ }
+
+ .mylink:hover::after {
+     transform: scaleX(1);
+ }
+
+
+ .form-control:focus {
+     box-shadow: none;
+     border: none;
+
+ }
+
+ .input-group-text {
+     background-color: var(--nav_background);
+ }
+
+ .custom-navbar {
+     background-color: var(--nav_background);
+ }
+
+ .toggle-menu {
+     background-color: var(--nav_background);
+ }
+
+ @media (min-width: 992px) {
+
+     /* to ensure that in expanded navbar the links should be aligned centrally */
+     .navbar-expand-lg .navbar-nav {
+         flex-direction: row;
+         align-items: center;
+     }
+
+     .input-group {
+         width: 25% !important;
+     }
+ }
